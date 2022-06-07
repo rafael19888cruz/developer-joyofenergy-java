@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import uk.tw.energy.builders.MeterReadingsBuilder;
 import uk.tw.energy.domain.ElectricityReading;
+import uk.tw.energy.domain.MeterReadingController;
+import uk.tw.energy.domain.MeterReadingService;
 import uk.tw.energy.domain.MeterReadings;
-import uk.tw.energy.service.MeterReadingService;
 
 import java.util.ArrayList;
 import java.util.Collections;
